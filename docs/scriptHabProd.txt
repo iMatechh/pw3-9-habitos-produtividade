@@ -1,0 +1,11 @@
+create database HabProdMatt
+
+use HabProdMatt
+
+create table Habito(
+	id_hab int not null,
+	descricao varchar(255),
+	diasConsecutivos int,
+	metaDias int,
+	conquistaAlcancada tinyint
+);
